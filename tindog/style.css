@@ -1,0 +1,174 @@
+
+body
+{
+     background-color:#ff4c68;
+}
+#header{
+    background-color:#ff4c68;
+    color:white;
+    text-align: center;
+  
+}
+.container-fluid{
+    padding:2% 15%;
+    text-align: left;
+    
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+    
+}
+.nav-item{
+    padding: 0 18px;
+    color:"Montserrat-light":
+    
+}
+.navbar-brand
+{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3rem;
+    color:white;
+}
+.titleimage
+{
+    transform:rotate(25deg);
+    width:60%;
+   
+    position: absolute;
+    right:30%;
+}
+
+#features
+{
+    background-color: white;
+    position: relative;
+   padding: 4.5%;
+   
+    
+}
+.feature-box{
+    
+    text-align: center;
+    
+}
+.fa-check-circle,.fa-bullseye,.fa-heart{
+    color:#ef8172;
+   padding-bottom: 1rem;
+   
+}
+.downloadb{
+    margin-left: 1%;
+    font-size:20px;
+    text-align: center;
+}
+
+.fa-check-circle:hover,.fa-bullseye:hover,.fa-heart:hover/**/
+{
+    color:#ff4c88;
+  
+}
+h2{
+    font-size:1.5rem;
+    color:black;
+}
+p
+{
+  color:  #8f8f8f;
+}
+.testimonial
+{
+    margin-top: 0;
+    padding: 4.5%;
+    padding-bottom: 0%;
+    position:relative;
+    
+    background-color:#ef8172;
+   
+    
+}
+.test{
+    text-align: center;
+}
+h3{
+    font-family: "Ubuntu";
+    color:black;
+   font-size: 3rem;
+    line-height: 1.5 rem;
+ 
+}
+.testimg{
+    border-radius: 50%;
+   height: 20%;
+}
+em{
+    padding-left: 1%;
+}
+.busiimg{
+    padding:4.5%;
+    padding-top: 4%;
+    text-align: center;
+     background-color:#ef8172;
+    
+}
+.busimg{
+   
+    width:20%;
+    padding-top: 0%;
+}
+.pricing{
+    background-color: white;
+}
+.price{
+    padding-top: 5%;
+    text-align: center;
+}
+.pricecard{
+margin-top: 10%;
+}
+.btn1,.btn2{
+    width: 70%;
+}
+.download{
+   text-align: center;
+    padding-top: 5%;
+   
+}
+.downloadhb{
+   margin-top: 4%;
+ font-size:40px;
+    margin-right: 2%;
+}
+.copy{
+    background-color: white;
+    text-align: center;
+   
+    height:60%;
+    padding-top:5%;
+    margin-top: 5%;
+}
+.social-icon{
+    padding-right: 2%;
+}
+.copyp{
+    padding-top: 2%;
+    padding-right: 0%;
+}
+@media (max-width: 1028px) {
+
+  #header {
+    text-align: center;
+  }
+
+  .titleimage {
+    position: static;
+    transform: rotate(0);
+  }
+}
