@@ -2,6 +2,6 @@
 
 int main(){
    string email="abc@gmail.com"
-   string phone ="12345678892"
+   string phone ="1000"
     return 0;
 }
