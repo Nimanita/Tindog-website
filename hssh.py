@@ -5,7 +5,11 @@ weight
                     userWeight.setText(weight + " kg");
                     userAge.setText(age + "");
                     userGender.setText(gender);
-                    userActivityLvl.setText(getActivityLvlShortForm(object.getString("activityLvl")));
+        
+      
+      
+      
+      userActivityLvl.setText(getActivityLvlShortForm(object.getString("activityLvl")));
 
 Height 
      password = user.password;
